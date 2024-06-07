@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jamba the Wanderer</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5; /* Háttérszín */
+            color: #333; /* Szövegszín */
+            background-image: url("https://i.pinimg.com/originals/2a/76/17/2a761787715ca71788aad1a28ab057ac.jpg");
+        }
+        
+        .navbar {
+            margin-bottom: 30px;
+            background-color: rgba(0, 0, 0, 0.4) !important;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff !important; /* Fehér szöveg */
+        }  
+
+        .carousel-item img {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            border: solid black 7px;
+        }
+
+        .content {
+            margin-top: 30px;
+        }
+
+        .content h2 {
+            margin-bottom: 20px;
+            color: #6200ea; /* Cím színe */
+        }
+
+        .content p {
+            margin-bottom: 10px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            border: none;
+            background-color: #fff; /* Kártya háttérszíne */
+            color: #333; /* Kártya szövegszíne */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .card img {
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        .navbar {
+            margin-bottom: 30px;
+            background-color: #6200ea; /* Navbar háttérszíne */
+        }
+
+        .navbar-brand {
+            color: #fff !important; /* Navbar márkaszöveg színe */
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff !important; /* Navbar link színe */
+        }
+
+        .navbar-nav .nav-link:hover {
+            text-decoration: underline; /* Hover aláhúzás */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Jamba the Wanderer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" target="_blank" href="https://jamba01.github.io/Jamba-helye/">Jamba önéletrajza</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://drive.usercontent.google.com/download?id=1GDjqvH07JehwfmHAPvO5LXFYf8BHr0Uy&export=download&authuser=0">Játék letöltése Androidra</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://drive.usercontent.google.com/download?id=1CVChq35jSNNSkEuvhrWctdLInmohclWJ&export=download&authuser=0">Játék letöltése PC-re</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="my-4 text-center">Jamba the Wanderer</h1>
+        
+        <div class="content">
+            <h2 class="text-center">Bemutatkozás</h2>
+            <p class="text-center">Ezt a játékot Jamba fejleszti, és még egy nagyon korai szakaszában van.</p>
+            <p class="text-center">Jelenleg még koránt sincs készen.</p>
+            <p class="text-center">A <b><a href="https://gdevelop.io/">Gdevelop</a></b> játékfejlesztőmotort használja Jamba.</p>
+        </div>
+         
+        <br>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/GDevelop_complete_logo_%28purple_background%29.svg/1200px-GDevelop_complete_logo_%28purple_background%29.svg.png" class="d-block w-100" alt="Éjszakai város">
+                </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Előző</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Következő</span>
+            </a>
+        </div>
+        <br><br><br>
+
+        <div class="row mt-6">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/bcas.png" class="card-img-top" alt="Kép 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Barna Királyság</h5>
+                        <p class="card-text">Barna Király Királysága.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/lovag-removebg-preview.png" class="card-img-top" alt="Kép 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Jamba the Wanderer</h5>
+                        <p class="card-text">Jamba a dicső lovag.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imgs/castle.png" class="card-img-top" alt="Kép 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Kuma Királyság</h5>
+                        <p class="card-text">Karna Király Királysága.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
